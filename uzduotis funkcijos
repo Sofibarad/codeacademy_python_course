@@ -1,5 +1,0 @@
-def skaiciu_suma(skaicius1=10, skaicius2=10)
-rezultatas=(skaicius1+skaicius2)
-return rezultatas
-
-print(skaicius_suma))
