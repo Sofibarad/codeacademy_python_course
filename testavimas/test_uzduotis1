@@ -1,0 +1,12 @@
+import unittest
+from uzduotis1 import skaiciu_suma
+
+
+class Testuzduotis1(unittest.TestCase):
+    def skaiciu_suma(self):
+        self.assertEqual(10, skaiciu_suma(2,5,3))
+        self.assertEqual(-10, skaiciu_suma(-2,-2,-6))
+        self.assertEqual(2, skaiciu_suma(-3,5,0))
+
+if __name__ == '__main__':
+    unittest.main()
