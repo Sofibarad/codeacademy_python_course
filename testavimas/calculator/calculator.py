@@ -11,5 +11,6 @@ def multiply(x, y):
     return result
 
 def divide(x, y):
+    s = multiply(x,y)
     result = x / y
     return result

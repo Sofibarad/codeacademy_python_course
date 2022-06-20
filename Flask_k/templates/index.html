@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sarašas</title>
+    <title>Prisijungimas</title>
 </head>
 <body>
-<h1>Žmonių sarašas: </h1>
-{%for vardas in sarasas%}
-<p>{{vardas}}</p>
-{% endfor %}
+<form action="#" method="post">
+    <p>Vardas:</p>
+    <p><input type="text" name="vardas"/></p>
+    <p><input type="submit" value="submit"/></p>
+</form>
 </body>
 </html>
